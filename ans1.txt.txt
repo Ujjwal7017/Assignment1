@@ -1,0 +1,6 @@
+We can use SSH  to connect our system with the github account.
+
+Commond for writing SSH Key :
+
+$ git-keygen
+
