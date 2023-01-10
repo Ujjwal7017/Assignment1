@@ -3,4 +3,5 @@ Commonds from Initialising to pushing our repo to github are :
 git init
 git add .
 git commit -m "first commit"
- git remote add origin https://github.com/Ujjwal7017/Git_Tutorial.git
+git remote add origin https://github.com/Ujjwal7017/Assignment1.git
+git push origin master

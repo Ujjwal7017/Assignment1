@@ -1,0 +1,3 @@
+Static Website pages are those with content that cannot change without a developer editing its source code .
+
+Dynamic websites can change the web page contents dynamically while the page is running on client's browser.
