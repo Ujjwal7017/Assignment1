@@ -1,0 +1,5 @@
+$ git branch (To see all your branches)
+
+$ git checkout -b Assignment2 (For creation of new Branch)
+
+$ git checkout branch(To get inside any branch)

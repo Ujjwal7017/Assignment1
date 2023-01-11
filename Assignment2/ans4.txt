@@ -1,0 +1,3 @@
+// Git commond to reset a commit is : 
+git reset --hard commitID
+git revert Head
