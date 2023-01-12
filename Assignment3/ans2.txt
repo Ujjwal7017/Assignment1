@@ -1,0 +1,10 @@
+Features of NodeJS :
+
+1) Non-blocking - It refers to the program that does not block the execution of further operations. Non-Blocking methods are executed asynchronously. 
+Asynchronously means that the program may not necessarily execute line by line
+
+2)Synchronous : Synchronous programming means that the code runs in the sequence it is defined. 
+In a synchronous program, when a function is called and has returned some value, only then will the next line be executed.
+
+3)Single-threaded : Node JS Platform doesn't follow the Multi-Threaded Request/Response Stateless Model. It follows the Single-Threaded with Event Loop Model. 
+Node JS Processing model mainly inspired by JavaScript Event-based model with JavaScript callback mechanism.

@@ -1,0 +1,11 @@
+// Architecture of NodeJS
+It basically consists of three components ie;
+1)Call Stack
+2)NodeJS
+3)Call back Queue
+
+NodeJS Processing Model is based on the JavaScript Event loop based model along with the JavaScript callback
+Mechanism.
+
+NodeJS runs event-driven operations, where each task is triggered by the use of events which deploys a callback function. 
+The NodeJs runtime is an asynchronous operation and doesn't block other tasks while enabling a smooth operation.

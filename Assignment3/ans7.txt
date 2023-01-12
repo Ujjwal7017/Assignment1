@@ -1,0 +1,9 @@
+// All the primitive data types in JavaScript :
+
+1) string
+2) number
+3) bigint
+4) boolean
+5) undefined
+6)symbol
+7) null

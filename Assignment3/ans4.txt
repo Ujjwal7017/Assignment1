@@ -1,0 +1,8 @@
+JavaScript Object Notation, more commonly known by the acronym JSON, 
+is an open data interchange format that is both human and machine-readable. 
+Despite the name JavaScript Object Notation, JSON is independent of any programming language and is a common API output in a wide variety of applications.
+
+JSON represents data in two ways:
+
+Object: a collection of name-value (or key-value) pairs. An object is defined within left ({) and right (}) braces. Each name-value pair begins with the name, followed by a colon, followed by the value. Name-value pairs are comma separated.
+Array: an ordered collection of values. An array is defined within left ([) and right (]) brackets. Items in the array are comma separated.
