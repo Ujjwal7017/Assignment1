@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    display: flex;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: rgb(38, 200, 106);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-wrap: wrap;
+    }
+  
+    nav li {
+      flex: 1 100%;
+    }
+  }
+  
