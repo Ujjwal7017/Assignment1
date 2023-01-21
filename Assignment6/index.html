@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Number Guessing Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <h1>Guess Kro Prize Jeeto !!</h1>
-    <p class="para">Guess Your Lucky number between 1 to 100</p>
-    <input type="number" id="guess" min="1" max="100" />
-    <button class="btn" onclick="checkGuess()">Submit</button>
-    <p id="message"></p>
-    <p id="remaining"></p>
-    <script src="script.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>LPU</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">LPU</div>
+        <!-- navigation menu -->
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776</label>
+        <ul class="nav-links">
+            <div class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li class="services">
+                    <a href="/">Services</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="/">Dropdown 1</a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 3</a></li>
+                        <li><a href="/">Dropdown 4</a></li>
+                        <li><a href="/">Dropdown 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">Pricing</a></li>
+                <li><a href="/">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+</body>
 </html>
